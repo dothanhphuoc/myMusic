@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-side">
+            <h1>PlayList</h1>
+
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i> Playlist</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i> Last Listenting</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i> Recommended</h4>
+            </div>
+
+            <div class="menu-song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="./assets/image/01.jpg" alt="">
+                    <h5>ghé qua<br> 
+                        <div class="subtitle">Taynguyensound</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="1"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="./assets/image/02.jpg" alt="">
+                    <h5>bước qua nhau<br> 
+                        <div class="subtitle">Vũ</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="2"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/image/03.jpg" alt="">
+                    <h5>luôn yêu đời<br> 
+                        <div class="subtitle">Đen Vâu</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/image/03.jpg" alt="">
+                    <h5>luôn yêu đời<br> 
+                        <div class="subtitle">Đen Vâu</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/image/03.jpg" alt="">
+                    <h5>luôn yêu đời<br> 
+                        <div class="subtitle">Đen Vâu</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/image/03.jpg" alt="">
+                    <h5>luôn yêu đời<br> 
+                        <div class="subtitle">Đen Vâu</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/image/03.jpg" alt="">
+                    <h5>luôn yêu đời<br> 
+                        <div class="subtitle">Đen Vâu</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="3"></i>
+                </li>
+
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="./assets/image/03.jpg" alt="">
+                    <h5>luôn yêu đời<br> 
+                        <div class="subtitle">Đen Vâu</div>
+                    </h5>
+                    <i class="fa-solid fa-circle-play playlistPlay" id="3"></i>
+                </li>
+            </div>
+        </div>
+
+        <div class="song-side">
+            <nav>
+                <ul>
+                    <li>Trang Chủ <span></span></li>
+                    <li>Thư Viện</li>
+                    <li>Mới Nhất</li>
+                </ul>
+
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Tìm kiếm ...">
+                </div>
+
+                <div class="user">
+                    <img src="./assets/image/user.jpg" alt="">
+                </div>
+            </nav>
+
+            <div class="content">
+                <h1>Happy Birthday</h1>
+                <p>Với sự kết hợp độc đáo giữa ngôn ngữ tiếng Anh và Việt đã tạo nên được sự liền mạch, <br> kéo dài chuỗi cảm xúc vui vẻ của bài hát.</p>
+                <div class="buttons">
+                    <button>Play</button>
+                    <button>Tải về</button>
+                </div>
+            </div>
+
+            <div class="popular-song"> <!-- popular: phổ biến -->
+                <div class="header-popular">
+                    <h4>Phổ Biến Nhất</h4>
+                    <div class="btn-s">
+                        <i class="fa-solid fa-arrow-left" id="popular-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right" id="popular-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="product-song">
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+
+                    <li class="product-song-item">
+                        <div class="img-play">
+                            <img src="./assets/image/02.jpg" alt="">
+                            <i class="fa-solid fa-circle-play" id="3"></i>
+                        </div>
+                        <h5> Bước qua nhau ssssssssssssssssssssssssssss<br>
+                            <div class="subtitle">Vũ</div>
+                        </h5>
+                    </li>
+                </div>
+            </div>
+
+            <div class="popular-singer">
+                <div class="header-popular">
+                    <h4>Ca Sĩ Nổi Bật</h4>
+                    <div class="btn-s">
+                        <i class="fa-solid fa-arrow-left" id="singer-arrow-left"></i>
+                        <i class="fa-solid fa-arrow-right" id="singer-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="items">
+                    <li>
+                        <img src="./assets/image/singer01.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer02.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer03.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer04.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer01.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer02.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer03.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer04.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer05.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer06.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer01.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer03.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer03.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer04.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <img src="./assets/image/singer04.jpg" alt="">
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <div class="master-play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+
+            <img src="./assets/image/06_03.jfif" alt="" id="poster-master-play">
+
+            <h5 id="title">
+                hạnh phúc mới
+                <div class="subtitle">sơn tùng MTP</div>
+            </h5>
+
+            <div class="icons">
+                <i class="fa-solid fa-music random">  next</i>
+                <i class="fa-solid fa-backward"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward"></i>
+                <i class="fa-solid fa-download" id="download-music"></i>
+            </div>
+
+            <span id="currentStart">00:00</span>
+
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">  <!-- seek: tim kiem-->
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+
+            <span id="currentEnd">00:00</span>
+
+            <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol2"></div>
+                <div class="dot" id="vol-dot"></div>
+            </div>
+        </div>
+    </header>
+    <script src="./app.js"></script>
+</body>
+</html>
